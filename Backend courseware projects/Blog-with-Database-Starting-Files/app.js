@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect('mongodb+srv://admin-chiri:admin-chiri@cluster0.rfpak.mongodb.net/blogDB?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://<REPLACE WITH ADMIN ACCOUNT>:<REPLACE WITH ADMIN PASSWORD>@cluster0.rfpak.mongodb.net/blogDB?retryWrites=true&w=majority');
 
 const postSchema = new mongoose.Schema({
   name:String,
