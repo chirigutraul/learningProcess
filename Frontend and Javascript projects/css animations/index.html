@@ -1,0 +1,67 @@
+<html>
+    <style>
+        body{
+            background:#696969;
+        }
+        .minge{
+            width:20%;
+            height:30%;
+            background:red;
+            margin: 2% 5%;
+            margin-left:45%;
+            border-radius:100%;
+            animation-name:mingiuta;
+            animation-iteration-count: infinite;
+            animation-duration: 1s;
+            box-shadow: 0px 220px 100px 5px black;
+        }
+        @keyframes mingiuta{
+            0%{
+                background:red;
+                margin-top:2%;
+                box-shadow: 0px 220px 100px 5px rgba(0, 0, 0, 0.7);
+
+            }
+            50%{
+                width:20%;
+                margin-top:48%;
+                height:10%;
+                box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 1);
+            }
+            100%{
+
+            }
+        }
+
+        .nustiu{
+            width:20%;
+            height:20%;
+            top:70%;
+            left:7%;
+            background:repeating-radial-gradient(red,yellow 40%);
+            position:relative;
+            animation-name:ciupearca;
+            animation-duration:1s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes ciupearca{
+            0%{
+            background:repeating-radial-gradient(red,yellow 40%);
+            }
+            50%{
+            transform:scale(1.3);
+            border-radius:20%;
+            background:repeating-radial-gradient(red,yellow 40%);
+            box-shadow: 0px 10px 20px 5px black;
+            }
+            100{
+
+            }
+        }
+
+    </style>
+    <body>
+        <div class="nustiu"></div>
+        <div class="minge"></div>
+    </body>
+</html>

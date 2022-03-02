@@ -1,0 +1,14 @@
+{
+  "name": "exemplu",
+  "version": "1.0.0",
+  "description": "asta-i exemplu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chiri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

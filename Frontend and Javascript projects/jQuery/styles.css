@@ -1,0 +1,10 @@
+.heartimg{
+  width:25%;
+  margin-top:10%;
+  margin-bottom:4%;
+  transition:0.1s;
+}
+.heartBeat{
+  width:30%;
+  transition:0.1s;
+}

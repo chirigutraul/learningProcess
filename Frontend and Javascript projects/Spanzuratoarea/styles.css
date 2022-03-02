@@ -1,0 +1,318 @@
+.titlu{
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size:3rem;
+  margin: 0 auto;
+}
+.subtitlu{
+  text-align:center;
+  font-size:1rem;
+  margin-top:5%;
+  font-family:'Open Sans', sans-serif;
+}
+body{
+}
+.centruJoc
+{
+  margin:0 auto;
+  text-align:center;
+}
+.playButton{
+  width:5%;
+  margin:5% 47% 0;
+}
+.suicideImage{
+  width:7.5%;
+  position:absolute;
+  left:51.8%;
+  top:-0.5%;
+}
+.alfabet{
+ margin:10% 33% -12%;
+}
+.tableRow1{
+margin-left:35%;
+}
+.tableRow2{
+  margin-left:36.5%;
+}
+.tableRow3{
+  margin-left:39.5%;
+}
+.tableRow1,tableRow2,tableRow3{
+  margin-top:5%;
+}
+#destinatie{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #000;
+  font-size: 500;
+  padding: 20px 40px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.spot {
+    margin: 0 5px;
+}
+.letter:hover{
+  background-color:grey;
+}
+@media only screen and (min-width: 1200px) {
+  body{
+    background-color: lightblue;
+  }
+  .suicideImage{
+    left:51%;
+  }
+  .playButton{
+    margin:2% auto;
+    width:8%;
+  }
+  .tableRow1{
+  margin:3% auto 0;
+  }
+  .tableRow2{
+    margin:0 auto 0;
+  }
+  .tableRow3{
+    margin:0 auto 0;
+  }
+  /* .tableRow1{
+    margin-top:5%;
+  } */
+  .letter{
+    width:100%;
+  }
+  table{
+    width:45%;
+  }
+}
+
+@media only screen and (min-width:1300px) and (max-width:1400px) {
+  body{
+background-color: lightblue;
+  }
+  .suicideImage{
+    left:51.5%;
+  }
+  .playButton{
+    margin:2% auto;
+    width:8.5%;
+  }
+  .tableRow1{
+  margin:3% auto 0;
+  }
+  .tableRow2{
+    margin:0 auto 0;
+  }
+  .tableRow3{
+    margin:0 auto 0;
+  }
+  .letter{
+    width:100%;
+  }
+  table{
+    width:50%;
+  }
+}
+@media only screen and (min-width:1200px) and (max-width:1300px) {
+  body{
+background-color: lightblue;
+  }
+  .suicideImage{
+    left:52%;
+  }
+  .playButton{
+    margin:2% auto;
+    width:9%
+  }
+  .tableRow1{
+  margin:3% auto 0;
+  }
+  .tableRow2{
+    margin:0 auto 0;
+  }
+  .tableRow3{
+    margin:0 auto 0;
+  }
+  .letter{
+    width:100%;
+  }
+  table{
+    width:55%;
+  }
+}
+
+
+@media only screen and (min-width:1124px) and (max-width: 1199px){
+  body{
+background-color: lightblue;
+  }
+  .suicideImage{
+    left:52.5%;
+  }
+  .playButton{
+    margin:1% auto;
+    width:10%
+  }
+  .tableRow1{
+  margin:3% auto 0;
+  }
+  .tableRow2{
+    margin:0 auto 0;
+  }
+  .tableRow3{
+    margin:0 auto 0;
+  }
+  .letter{
+    width:100%;
+  }
+  table{
+    width:65%;
+  }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1124px) {
+  body{
+  background-color: lightblue;
+  }
+  .suicideImage{
+    left:53%;
+  }
+  .playButton{
+    margin:2% auto;
+    width:11%;
+  }
+  .tableRow1{
+  margin:3% auto 0;
+  }
+  .tableRow2{
+    margin:0 auto 0;
+  }
+  .tableRow3{
+    margin:0 auto 0;
+  }
+  .letter{
+    width:100%;
+  }
+  table{
+    width:70%;
+  }
+}
+@media only screen and (min-width:720px) and (max-width:1024px) {
+  body{
+background-color: lightblue;
+  }
+  .suicideImage{
+    left:55%;
+    width:10%;
+  }
+  .playButton{
+    margin:2% auto;
+    width:12.5%;
+  }
+  .tableRow1{
+  margin:3% auto 0;
+  }
+  .tableRow2{
+    margin:0 auto 0;
+  }
+  .tableRow3{
+    margin:0 auto 0;
+  }
+  .letter{
+    width:100%;
+  }
+  table{
+    width:70%;
+  }
+}
+@media only screen and (min-width:606px) and (max-width:720px) {
+  body{
+background-color: lightblue;
+  }
+  .suicideImage{
+    left:55%;
+    width:13%;
+  }
+  .playButton{
+    margin:2% auto;
+    width:15%;
+  }
+  .tableRow1{
+  margin:3% auto 0;
+  }
+  .tableRow2{
+    margin:0 auto 0;
+  }
+  .tableRow3{
+    margin:0 auto 0;
+  }
+  .letter{
+    width:100%;
+  }
+  table{
+    width:80%;
+  }
+}
+
+@media only screen and (min-width:506px) and (max-width:606px) {
+  body{
+background-color: lightblue;
+  }
+  .suicideImage{
+    left:57%;
+    width:13%;
+  }
+  .playButton{
+    margin:2% auto;
+    width:15%;
+  }
+  .tableRow1{
+  margin:3% auto 0;
+  }
+  .tableRow2{
+    margin:0 auto 0;
+  }
+  .tableRow3{
+    margin:0 auto 0;
+  }
+  .letter{
+    width:100%;
+  }
+  table{
+    width:80%;
+  }
+}
+
+@media only screen and (min-width:280px) and (max-width:506px) {
+  body{
+background-color: lightblue;
+  }
+  .suicideImage{
+    left:56%;
+    width:15%;
+  }
+  .playButton{
+    margin:2% auto;
+    width:15%;
+  }
+  .tableRow1{
+  margin:3% auto 0;
+  }
+  .tableRow2{
+    margin:0 auto 0;
+  }
+  .tableRow3{
+    margin:0 auto 0;
+  }
+  .letter{
+    width:100%;
+  }
+  table{
+    width:80%;
+  }
+}

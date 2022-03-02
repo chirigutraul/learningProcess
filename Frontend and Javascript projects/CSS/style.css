@@ -1,0 +1,20 @@
+/****************** TAG SELECTORS *****************/
+body {
+  background-color: gray;
+}
+#heading
+{
+  color: blue;
+}
+
+/**************** CLASS SELECTORS ***********/
+.image {
+  width:250px;
+  background-color: gray;
+}
+.image:hover
+{
+  background-color:gold;
+}
+
+/**************** ID SELECTORS *************/
